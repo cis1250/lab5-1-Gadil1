@@ -24,7 +24,7 @@ def print_fibonnaci(sequence):
         
 def main():
     n = get_positive_integer()
-    sequence = fibonacci_sequence(n)
+    sequence = fibonnaci_sequence(n)
     print("Fibonnaci sequence:")
     print_fibonnaci(sequence)
 
