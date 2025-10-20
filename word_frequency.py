@@ -46,7 +46,7 @@ def calculate_frequencies(sentence):
         else:
             words.append(word)
             frequencies.append(1)
-  return words, frequencies
+    return words, frequencies
 
 def print_frequencies(words, frequencies):
     print("\nWord Frequencies:")
