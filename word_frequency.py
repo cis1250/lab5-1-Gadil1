@@ -27,7 +27,7 @@ def is_sentence(text):
 
 
 def get_sentence():
-    sentenece = input("Enter a sentence: ")
+    sentence = input("Enter a sentence: ")
     while not is_sentence(sentence):
         print("Invalid sentence. Make sure it starts with a capital letter, ends with punctuation, and has at least one word.")
         sentence = input("Enter a sentence: ")
@@ -40,7 +40,7 @@ def calculate_frequencies(sentence):
     frequencies = []
      for word in words_list:
         word = word.lower()
-         if word in words:
+        if word in words:
             index = words.index(word)
             frequencies[index] += 1
         else:
