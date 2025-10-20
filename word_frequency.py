@@ -38,7 +38,7 @@ def calculate_frequencies(sentence):
     words_list = sentence[:-1].split()
     words = []
     frequencies = []
-     for word in words_list:
+    for word in words_list:
         word = word.lower()
         if word in words:
             index = words.index(word)
